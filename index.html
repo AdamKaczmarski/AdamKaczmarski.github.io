@@ -1,73 +1,81 @@
 <!DOCTYPE html>
-<html>
-
-<head>
- <style type="text/css">
-   body{
-      background-color:rgb(50,50,50);
-      color:white
-   }
-   a{
-      color:rgb(210,210,255)
-   }
-   img{
-      margin: 15px 15px 15px 15px
-   }
-   hr{
-      border-top: 1px solid gray;
-   }
-   .infotd{
-     vertical-align:top
-   }
- </style>
-</head>
-
-<body style="background-color:rgb(50,50,50); color:white">
-<table width= 1000px>
-  <tr>
-    <td class="infotd">
-      <h3>Adam Kaczmarski</h3>
-        <p>
-        Hi, I am 21 years old guy from Poland. I have done an IT Technician course in high school which made me stay in there a year longer but it was worth since I have gathered so much experienced. I also have finished my class with the certificate and can call myself an IT Technician. I've programmed for 3 years in C++, mostly broke down algorithms and coded them since that was my final exam in Computer Science was about. I have also learned a lot about hardware, networking and in my final years I did databasases and web development. So, I've had a try of almost everything CS is about. <br>
-        Besides Computer Science I am very interested in music! Most of it is electronic. My favourite artists are Alison Wonderland, Flume, Yellow Claw and many more! During lockdown I have bought for myself a beautiful Pioneer controller and I am trying to mix things up since then. In my free time I love to sit back and read a book or play a video game with my friends. <br>
-        </p>
-    </td>
-    <td>
-	<img src="me.jpg" width=300px></img>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-	<hr>
-    </td>
-  </tr>
-
- <tr>
-  <td class="infotd">
-    <h3>Bootcamp 2020: 2D Ping-Pong Game</h3>
-      <p>
-      My first programming project was made during one of the practicals before I found out that we are having a project the next week. When completed the tasks I've tried to make this little bouncing ball game we all know from our childhood (at least I remember..). <br>
-        I've created a circle that moves with a randomized velocity. At start the range is from 5 to 6 but it speeds up with every picked point that appears in random places on the screen. This project demonstrates an understanding of proper if statements and how to set the mathematical conditions. 
-      </p>
-
-    <p>
-      Check out the code on Github: <a href="https://github.com/AdamKaczmarski/adbt214">https://github.com/AdamKaczmarski/adbt214</a>
-    </p>
-  <td>
-	<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/d0d4df7e-726b-49e0-aac0-49385a38df3d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-  <td>
-  </td>
-<tr>
- <td colspan = 2 align=center>
-
-	<img src="pic1.jpg" width="285px">
-	<img src="pic2.jpg" width="265px">
-	<img src="pic3.jpg" width="255px">
-
-
- </td>
-</tr>
- </tr>
-</table>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta description="A website for showcasing projects for City, University of London" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio for IN1007</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container d-flex w-100 h-100 flex-column text-white text-center">
+            <header class="mt-3">
+                <div class="row">
+                    <h1>Project Portfolio Website for IN1007</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="#bio">About me</a>
+                        <a href="#game">The Game</a>
+                        <a href="#bootcamp">Bootcamp</a>
+                    </div>                    
+                </div>
+                <div class="row mt-1">
+                    <a href="https://github.com/AdamKaczmarski" target="_blank">My GitHub</a>
+                </div>
+            </header>
+            <div class="row justify-content-center mt-5" id="bio">
+                <div class="col-md-5">
+                    <h1>About me</h1>
+                    <p class="text-lead">
+                        Hi, I am 21 years old guy from Poland. I have done an IT Technician course in high school which made me stay in there a year longer but it was worth since I have gathered so much experienced. I also have finished my class with the certificate and can call myself an IT Technician. I've programmed for 3 years in C++, mostly broke down algorithms and coded them since that was my final exam in Computer Science was about. I have also learned a lot about hardware, networking and in my final years I did databasases and web development. So, I've had a try of almost everything CS is about. 
+                        Besides Computer Science I am very interested in music! Most of it is electronic. My favourite artists are Alison Wonderland, Flume, Yellow Claw and many more! During lockdown I have bought for myself a beautiful Pioneer controller and I am trying to mix things up since then. In my free time I love to sit back and read a book or play a video game with my friends. <br>                
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/me.jpg" width=300px></img>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5" id="game">
+                <div class="col-lg-5 col-md-5">
+                    <h1>The Game</h1>
+                    <p class="text-lead">
+                        My first programming project was made during one of the practicals before I found out that we are having a project the next week. When completed the tasks I've tried to make this little bouncing ball game we all know from our childhood (at least I remember..). <br>
+                          I've created a circle that moves with a randomized velocity. At start the range is from 5 to 6 but it speeds up with every picked point that appears in random places on the screen. This project demonstrates an understanding of proper if statements and how to set the mathematical conditions. 
+                    </p>
+                </div>
+                <div class="col-lg-5 col-md-3 pt-5">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/rFC--OB6iXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/game/level1.JPG" alt="level1" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/game/level2.JPG" alt="level2" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/game/level3.JPG" alt="level3" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/game/level4.JPG" alt="level4" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/game/menu.JPG" alt="main menu" width="300px"></div>
+            </div>
+            <div class="row justify-content-center mt-5" id="bootcamp">
+                <div class="col-lg-5 col-md-5">
+                    <h1>Bootcamp</h1>
+                    <p class="text-lead">
+                        My first programming project was made during one of the practicals before I found out that we are having a project the next week. When completed the tasks I've tried to make this little bouncing ball game we all know from our childhood (at least I remember..). <br>
+                          I've created a circle that moves with a randomized velocity. At start the range is from 5 to 6 but it speeds up with every picked point that appears in random places on the screen. This project demonstrates an understanding of proper if statements and how to set the mathematical conditions. 
+                    </p>
+                </div>
+                <div class="col-lg-5 col-md-3 pt-5">
+                    <iframe src="https://web.microsoftstream.com/embed/video/d0d4df7e-726b-49e0-aac0-49385a38df3d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/bootcamp/pic1.jpg" alt="pic1" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/bootcamp/pic2.jpg" alt="pic2" width="300px"></div>
+                <div class="col-lg-3 col-md-5 m-1 m-sm-3"><img src="images/bootcamp/pic3.jpg" alt="pic3" width="300px"></div>
+            </div>
+            <footer class="mt-3">
+                <p class="text-muted">This website is quickly and simply created for the purpose of describing and showing my work during the ongoing year at City, University of London</p>
+            </footer>
+        </div>
+    </body>
 </html>
