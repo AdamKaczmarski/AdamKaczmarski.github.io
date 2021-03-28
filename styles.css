@@ -19,4 +19,10 @@ a {
     color:white;
     margin-right: 1em;
     font-weight: bold;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #d42248;
+    transition: 0.2s;
 }
